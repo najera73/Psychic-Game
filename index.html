@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--reset-->
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <!-- Bootstrap Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!--my css style sheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen"/>
+   
+
+    <title>Psychic Game</title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">The Psychic Game</h1>
+            </div>
+        </div>
+    </header>
+
+        <h2>Guess what letter I'm thinking of below</h2>
+
+            <div class="container">
+                <!---<h1>The Psychic Game!</h1>-->
+                <p id="display-text"></p>
+             <h2 id="instructions-text">Press a letter to begin!</h2>
+                <h3 id="wins-text">Wins:</h3>
+                <h3 id="losses-text">Losses:</h3>
+                <h3 id="guesses-remaining">Guesses Remaining</h3>
+                <h3 id="guesses-text">Total Guesses</h3>
+            </div>
+    
+                <!--Wins: (# of times the user has guessed the letter correctly-->
+                    
+                <!--Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses-->
+
+                <!--Guesses Left: (# of guesses left. This will update-->
+
+                <!--Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses-->
+              
+
+            
+
+
+
+<!--When the player wins, increase the Wins counter and start the game over again (without refreshing the page-->
+
+<!--When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins-->
+    
+
+    <!-- Latest compiled and minified JavaScript update, wasn't sure if this was helping or hurting so removed -->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
+    <script src="assets/java/game.js"></script>
+</body>
+
+</html>
